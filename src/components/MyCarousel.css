@@ -1,0 +1,35 @@
+/* MyCarousel.css */
+
+.Container {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .max-width {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+  
+
+  .Carousel.Caption {
+    background: rgba(0, 0, 0, 0.5); 
+    padding: 20px;
+    color: white;
+  }
+  
+  
+  .Carousel.Item img {
+    max-width: 100%;
+    max-height: auto;
+  }
+
+  p{
+    font-size: 20px;
+    color: rgb(248, 246, 246);
+    font-weight: bold;
+    text-align: center;
+  }
+  

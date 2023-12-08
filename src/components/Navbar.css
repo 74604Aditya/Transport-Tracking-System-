@@ -1,0 +1,59 @@
+/* Navbar.css */
+
+.header{
+  background-color: #070707;
+  text-align: end;
+}
+
+.header a{
+   display: block;
+   color: crimson;
+   font-weight: 500;
+   margin-right: 25px;
+   text-decoration: none;
+   transition: color 0.3s ease;
+   display: inline-block;
+   padding: 10px;
+}
+
+.header a:hover{
+   color:#fff;
+}
+
+.navbar {
+  background-color: #0d0d0d;
+  margin: 0; /* Remove default margin */
+}
+
+.max-width {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(195, 31, 31);
+}
+
+a:hover {
+  text-decoration: underline;
+}
