@@ -1,7 +1,7 @@
 /* Footer.css */
 
 .footer {
-  background-color: #57505099;
+  background-color: #9c8b8ba7;
   color: #161515;
   padding: 20px;
 }
@@ -14,13 +14,14 @@
 .footer-column {
   flex: 1;
   padding: 0 20px;
-  align-items: center;
+  text-align: center;
 }
 
 .footer__title {
   font-weight: bold;
   margin-bottom: 10px;
   color: #070707;
+  font-size: 20px;
 }
 
 .footer__list {
@@ -45,6 +46,40 @@
 .conditions p {
   text-align: center;
   font-size: 10px;
+}
+
+.Media {
+  display: flex;
+  justify-content: space-around; 
+  align-items: center;
+  padding: 30x;
+}
+
+.Media .footer__title{
+  text-align: center;
+}
+.Media .footer-column{
+  align-items: center;
+  padding: 30x;
+}
+
+.Media .footer__list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.Media .footer__item{
+  margin: 0 10px;
+  color: #000;
+  text-decoration: none;
+}
+
+.Media .footer__item:hover{
+  color: crimson;
+  font-size: 35px;
 }
 
 .created {

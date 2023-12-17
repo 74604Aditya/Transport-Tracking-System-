@@ -1,0 +1,104 @@
+/* Style for the mission section */
+
+.mission {
+    background-color: #f8f9fa; 
+    padding: 40px 0;
+  }
+  
+
+  .mission-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .mission-cont {
+    text-align: center;
+  }
+  
+  .mission h3 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #050404;
+  }
+  
+  .Figure.Image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .Figure.Caption {
+    font-size: 2.5em;
+    color: #495057; 
+  }
+
+/* General styling for columns */
+
+.help{
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.help h3{
+    color: antiquewhite;
+    text-align: center;
+}
+
+.c-content-box{
+    align-items: center;
+}
+
+
+p{
+    font-size: 15px;
+}
+
+.col-md-3 p{
+    font-size: 12px;
+}
+
+.col-md-3,
+.col-md-offset-1 {
+  flex: 0 0 calc(33.333% - 20px); /* Three columns for larger screens with spacing */
+  max-width: calc(33.333% - 20px); /* Three columns for larger screens with spacing */
+  margin-right: 20px; /* Spacing between columns */
+  margin: 10px;
+}
+
+/* Last column in each row, remove margin-right */
+.col-md-3:nth-child(3n),
+.col-md-offset-1:nth-child(3n) {
+  margin-right: 0;
+}
+
+/* Media query for medium-sized screens */
+@media (max-width: 992px) {
+  .col-md-3,
+  .col-md-offset-1 {
+    flex: 0 0 calc(50% - 20px); /* Two columns for medium screens with spacing */
+    max-width: calc(50% - 20px); /* Two columns for medium screens with spacing */
+  }
+
+  /* Last column in each row, remove margin-right */
+  .col-md-3:nth-child(2n),
+  .col-md-offset-1:nth-child(2n) {
+    margin-right: 0;
+  }
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .col-md-3,
+  .col-md-offset-1 {
+    flex: 0 0 100%; /* One column for smaller screens */
+    max-width: 100%; /* One column for smaller screens */
+    margin-right: 0; /* Remove margin for single column */
+  }
+}
+
+/* Styling for images */
+.img-responsive {
+    max-width: 100%; /* Set maximum width to 100% */
+    height: auto; /* Maintain aspect ratio */
+  }

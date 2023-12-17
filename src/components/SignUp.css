@@ -1,0 +1,57 @@
+/* Add this CSS to your existing stylesheet or create a new one */
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  
+
+  h1 {
+    text-align: center;
+    color: #7a349d;
+  }
+  
+  .name {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .second-input button{
+    height: 10px; /* Add a height for spacing if needed */
+    border-radius: 10px;
+    
+  }
+  
+  .checkbox {
+    margin-right: 5px;
+  }
+  
+  .link {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .link a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .link a:hover {
+    color: #542466;
+  }
+  
+  @media (max-width: 768px) {
+    .main {
+      height: auto;
+    }
+  
+    .sub-main {
+      margin-top: 20px;
+    }
+  }
+  

@@ -1,0 +1,101 @@
+body{
+    background-color: black;
+}
+h1 {
+    text-align: center;
+    color: #580878; 
+    font-weight: bold;
+    background-color: antiquewhite;
+}
+
+h2 {
+    text-align: center;
+    color:black; 
+}
+
+.sec {
+    margin-bottom: 40px;
+}
+
+.sec_heading a{
+    text-align: center; 
+}
+  
+
+address a {
+    color: #007bff; 
+    text-decoration: none; 
+    font-weight: bold; 
+    display: block;
+    text-align: center;
+    font-size: 20px;
+}
+
+address a:hover {
+    color: #4c0c85; /* Set the color for the link on hover */
+}
+
+address p {
+    color: black;
+}
+
+.form-group{
+    margin-top: 20px;
+}
+
+.office{
+    box-shadow: 0 0 20px #991313 ;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: #e0ffff;
+}
+
+
+.card {
+    width: 300px; 
+    margin-bottom: 20px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    padding: 10px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.5rem; 
+    font-weight: bold;
+    color: #333; 
+    text-align: center;
+}
+
+.card-text {
+    color: #666;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #007bff ; 
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 100%; 
+    }
+}
+
+.card-text p {
+    margin-bottom: 10px; 
+}
+
+.card-text p:first-child {
+    font-weight: bold;
+    color: #007bff;  
+}
+
+.card-text p {
+    color: #333; 
+}
+
+@media (max-width: 768px) {
+    .card-text p {
+        font-size: 0.9rem; 
+    }
+}
